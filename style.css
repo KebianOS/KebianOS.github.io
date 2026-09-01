@@ -3,7 +3,7 @@
 body {
     background: linear-gradient(180deg, #01061a 0%, #091a36 100%);
     color: #eaf2ff;
-    margin: 0;
+    margin-bottom: 10vh;
 }
 h1 {
     margin-left: 10px;
