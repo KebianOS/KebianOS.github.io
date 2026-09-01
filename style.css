@@ -51,6 +51,7 @@ span {
     display: flex;
     align-items: center; 
     gap: 12px;
+
 }
 .navbar-menu a {
     color: #eaf2ff;
@@ -69,7 +70,9 @@ span {
 .navbar-logo img {
     width: 40px; 
     height: auto;
-    margin: 0;   
+    margin: 0;  
+    transform: translateY(10px);
+    animation: logoIn 0.7s ease-out forwards; 
 } 
 
 .navbar-title {
@@ -101,5 +104,11 @@ span {
         flex-direction: column;    /* los links del menú también en columna */
         gap: 10px;                 /* menos espacio entre ellos, ya no necesitan tanto */
         margin-top: 10px;          /* separación del logo de arriba */
+    }
+}
+@keyframes logoIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
