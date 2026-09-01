@@ -5,6 +5,33 @@ body {
     color: #eaf2ff;
     margin: 0;
 }
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+html {
+    overscroll-behavior-y: none;
+}
+h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .navbar {
     background: linear-gradient(180deg, #071a4d 0%, #0b1f4d 100%);
