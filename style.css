@@ -4,6 +4,7 @@ body {
     background: linear-gradient(180deg, #01061a 0%, #091a36 100%);
     color: #eaf2ff;
     margin-bottom: 10vh;
+    margin-top: 0vh;
 }
 h1 {
     margin-left: 10px;
