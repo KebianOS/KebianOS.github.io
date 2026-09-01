@@ -1,0 +1,74 @@
+body {
+    background-color: #010519;
+    color: #ffffff;
+    margin: 0; 
+}
+
+.navbar {
+    background-color: #010519;
+    padding: 10px 20px;
+}
+
+.navbar-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center; 
+    gap: 12px;
+}
+
+.navbar-logo img {
+    width: 40px; 
+    height: auto;
+    margin: 0;
+} 
+
+.navbar-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Media query: estas reglas SOLO aplican si la pantalla mide 600px o menos */
+@media (max-width: 600px) {
+    .navbar-container {
+        flex-direction: column;    /* de fila horizontal → columna vertical */
+        align-items: flex-start;   /* alineado a la izquierda en vez de centrado */
+    }
+
+    .navbar-menu {
+        flex-direction: column;    /* los links del menú también en columna */
+        gap: 10px;                 /* menos espacio entre ellos, ya no necesitan tanto */
+        margin-top: 10px;          /* separación del logo de arriba */
+    }
+}
+
+/* Media query: estas reglas SOLO aplican si la pantalla mide 600px o menos */
+@media (max-width: 600px) {
+    .navbar-container {
+        flex-direction: column;    /* de fila horizontal → columna vertical */
+        align-items: flex-start;   /* alineado a la izquierda en vez de centrado */
+    }
+
+    .navbar-menu {
+        flex-direction: column;    /* los links del menú también en columna */
+        gap: 10px;                 /* menos espacio entre ellos, ya no necesitan tanto */
+        margin-top: 10px;          /* separación del logo de arriba */
+    }
+}
